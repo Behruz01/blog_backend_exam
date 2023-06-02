@@ -1,0 +1,26 @@
+[
+  {
+    "id": "4db5a2ae-1b76-4157-bda1-2b0253170fd5",
+    "username": "username1111",
+    "password": "$2b$07$6gA/nL4OXPeNAdaZ5SGx1uFuqtoSQzmW4Ol.6qfRHLTc8bNMHTCqG",
+    "photo": "c4e16156-8795-42c5-961a-a11f6a4eb61a.png"
+  },
+  {
+    "id": "6e8de37e-a216-487d-966c-9e3d487b55df",
+    "username": "username11323",
+    "password": "$2b$07$4nqwuwAKI18YyWmPgiAOaukptUg4KRJ20LtCuYiAozbZMh9rqWmlO",
+    "photo": "9c1950d1-ecd4-4d90-b60f-88495a850b24.png"
+  },
+  {
+    "id": "118ee266-f690-48f1-8e08-22dcaf2dd08b",
+    "username": "username42",
+    "password": "$2b$07$cfUuGq1NHPvQI8SMTCIQO.1EIT8D7hJfykQB2XUWT22ieWyhbv5k2",
+    "photo": "99113a27-8fc6-4cf2-a99d-ee9389a4ab1e.png"
+  },
+  {
+    "id": "f7830c6a-52c4-4269-bc2f-9e6abc474575",
+    "username": "username1111ee",
+    "password": "$2b$07$vc7Q2cQy0I6de0VyETm1Fup.PXpWMTucFz55AHLc23Ot6B.PeG/CW",
+    "photo": "5988f9a1-7045-425e-b59e-059b26458637.png"
+  }
+]
