@@ -14,5 +14,21 @@
   {
     "user_id": "4db5a2ae-1b76-4157-bda1-2b0253170fd5",
     "blog_id": "3"
+  },
+  {
+    "user_id": "4f26721b-4ff8-4740-b61c-33bdd014e58e",
+    "blog_id": "1"
+  },
+  {
+    "user_id": "4f26721b-4ff8-4740-b61c-33bdd014e58e",
+    "blog_id": "4"
+  },
+  {
+    "user_id": "4db5a2ae-1b76-4157-bda1-2b0253170fd5",
+    "blog_id": "6"
+  },
+  {
+    "user_id": "4db5a2ae-1b76-4157-bda1-2b0253170fd5",
+    "blog_id": "7"
   }
 ]

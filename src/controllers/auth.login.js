@@ -15,8 +15,10 @@ const login = async (req, res) => {
       password: Joi.string().alphanum().required(),
     });
     const { error } = schema.validate({ username, password });
-    // console.log(error);
-
+    if (error) {
+      res.status(401).json({ message: error.message });
+      return;
+    }
     const findUser = users.find((user) => user.username == username);
     if (!findUser)
       return res

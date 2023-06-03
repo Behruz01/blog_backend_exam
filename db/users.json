@@ -22,5 +22,11 @@
     "username": "username1111ee",
     "password": "$2b$07$vc7Q2cQy0I6de0VyETm1Fup.PXpWMTucFz55AHLc23Ot6B.PeG/CW",
     "photo": "5988f9a1-7045-425e-b59e-059b26458637.png"
+  },
+  {
+    "id": "4f26721b-4ff8-4740-b61c-33bdd014e58e",
+    "username": "John",
+    "password": "$2b$07$voBXKeVz39TIum.KhTC.dOdrei6uYD6olf3TM2pGDthefWQzwbqFG",
+    "photo": "2d47a733-e6cf-433e-b68e-fa6da9bdc74b.png"
   }
 ]

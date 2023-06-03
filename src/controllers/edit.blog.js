@@ -1,6 +1,8 @@
 const { v4: uuid } = require("uuid");
 const Io = require("../utils/io");
 const Blogs = new Io("./db/blogs.json");
+const Joi = require("joi");
+
 
 const editBlog = async (req, res) => {
   try {
@@ -8,6 +10,17 @@ const editBlog = async (req, res) => {
     const { title, desc } = req.body;
     const { user_id } = req.user;
     const { image } = req.files;
+
+    const schema = Joi.object({
+      title: Joi.string().required(),
+      desc: Joi.string().required(),
+    });
+    const { error } = schema.validate({ title, desc });
+    if (error) {
+      res.status(401).json({ message: error.message });
+      return;
+    }
+
     // image ga nom berish
     const imageName = `${uuid()}.${image.mimetype.split("/")[1]}`;
     // imageni yuklash

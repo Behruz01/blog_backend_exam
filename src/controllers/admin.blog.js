@@ -1,6 +1,7 @@
 const Io = require("../utils/io");
 const Blogs = new Io("./db/blogs.json");
 
+// administratsiya
 const adminBlog = async (req, res) => {
   try {
     const verify = req.verify;
@@ -17,7 +18,7 @@ const adminBlog = async (req, res) => {
         blog.id == id ? { ...blog, verify: true } : blog
       );
       Blogs.write(data);
-      res.status(200).json({ message: "admin ruhsat berdi" });
+      res.status(200).json({ message: findBlog });
       return;
     }
     res.status(400).json({

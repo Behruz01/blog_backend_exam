@@ -1,6 +1,7 @@
 const Io = require("../utils/io");
 const Blogs = new Io("./db/blogs.json");
 
+// read blogs
 const read = async (req, res) => {
   try {
     const blogs = await Blogs.read();

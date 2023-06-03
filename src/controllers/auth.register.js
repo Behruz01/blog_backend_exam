@@ -18,8 +18,10 @@ const register = async (req, res) => {
       password: Joi.string().required(),
     });
     const { error } = schema.validate({ username, password });
-    // console.log(error);
-
+    if (error) {
+      res.status(401).json({ message: error.message });
+      return;
+    }
     const users = await Users.read();
     const findUser = users.find((user) => user.username == username);
 

@@ -2,7 +2,7 @@ const { v4: uuid } = require("uuid");
 const Io = require("../utils/io");
 const Blogs = new Io("./db/blogs.json");
 const Blog = require("../models/blog.js");
-
+// blog qo'shish
 const addBlog = async (req, res) => {
   const { title, desc } = req.body;
 
